@@ -21,26 +21,26 @@ dependencies:
   - cflinuxfs2
 - name: dotnet-runtime
   version: 2.1.4
-  uri: https://buildpacks.cloudfoundry.org/dependencies/dotnet-runtime/dotnet-runtime.2.1.4.linux-amd64-cflinuxfs2-7315b952.tar.xz
-  sha256: 7315b952249afc5b41516d9b003ac468011a7803b72af200a493257bfa6c364d
+  uri: https://download.microsoft.com/download/A/7/8/A78F1D25-8D5C-4411-B544-C7D527296D5E/dotnet-runtime-2.1.4-linux-arm64.tar.gz
+  sha256: ac0991ac76706da429e37167563114e911920bb512bb4cda61a6d401f65ffa5f
   cf_stacks:
   - cflinuxfs2
 - name: dotnet-sdk
   version: 2.1.402
-  uri: https://buildpacks.cloudfoundry.org/dependencies/dotnet-sdk/dotnet-sdk.2.1.402.linux-amd64-cflinuxfs2-4d09482b.tar.xz
-  sha256: 4d09482ba46f0edff1c4ea869c8c14abcc5542246602a38904aabcef943f6ee0
+  uri: https://download.microsoft.com/download/8/A/7/8A765126-50CA-4C6F-890B-19AE47961E4B/dotnet-sdk-2.1.402-linux-arm64.tar.gz
+  sha256: fec883faf2b5117a97303d9af9b75ab695d2c25bc3a708eac50cbfb37f78f81a
   cf_stacks:
   - cflinuxfs2
-- name: libunwind
-  version: 1.2.1
-  uri: https://buildpacks.cloudfoundry.org/dependencies/libunwind/libunwind-1.2.1-cflinuxfs2-db7f7257.tar.gz
-  sha256: db7f7257eb0e2b347a934e08809778cf7fac4eeaea0f90387c4ce75bb5ec08c9
-  cf_stacks:
-  - cflinuxfs2
+#- name: libunwind
+#  version: 1.2.1
+#  uri: https://buildpacks.cloudfoundry.org/dependencies/libunwind/libunwind-1.2.1-cflinuxfs2-db7f7257.tar.gz
+#  sha256: db7f7257eb0e2b347a934e08809778cf7fac4eeaea0f90387c4ce75bb5ec08c9
+#  cf_stacks:
+#  - cflinuxfs2
 - name: node
   version: 6.14.4
-  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-6.14.4-linux-x64-cflinuxfs2-48a4a12d.tgz
-  sha256: 48a4a12d08dd067dedd8bf440e259dd853b77298e78fe80f702627c1ca4a54b6
+  uri: https://nodejs.org/download/release/v6.14.4/node-v6.14.4-linux-arm64.tar.gz
+  sha256: 08d5af19fb0abe879ee9a62a1243cb027acbedae1b4fa5498a6183cc458773ee
   cf_stacks:
   - cflinuxfs2
 exclude_files: []
